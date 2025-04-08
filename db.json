@@ -1,84 +1,31 @@
 {
-  "users": [
-              {
-                "id": 1,
-                "name": "Nguyễn Văn An",
-                "email": "nguyenvanan@gmail.com",
-                "phone": "0912345678",
-                "avatar": "https://example.com/avatars/an.jpg",
-                "dateOfBirth": "1990-05-15T00:00:00.000Z"
-              },
-              {
-                "id": 2,
-                "name": "Trần Thị Bình",
-                "email": "tranthibinh@gmail.com",
-                "phone": "0923456789",
-                "avatar": null,
-                "dateOfBirth": "1985-11-20T00:00:00.000Z"
-              },
-              {
-                "id": 3,
-                "name": "Lê Văn Cường",
-                "email": "levancuong@gmail.com",
-                "phone": "0934567890",
-                "avatar": "https://example.com/avatars/cuong.jpg",
-                "dateOfBirth": "1995-02-28T00:00:00.000Z"
-              },
-              {
-                "id": 4,
-                "name": "Phạm Thị Diệu",
-                "email": "phamthidieu@gmail.com",
-                "phone": "0945678901",
-                "avatar": "https://example.com/avatars/dieu.jpg",
-                "dateOfBirth": "1992-08-10T00:00:00.000Z"
-              },
-              {
-                "id": 5,
-                "name": "Hoàng Văn Em",
-                "email": "hoangvanem@gmail.com",
-                "phone": "0956789012",
-                "avatar": null,
-                "dateOfBirth": "1988-12-05T00:00:00.000Z"
-              },
-              {
-                "id": 6,
-                "name": "Ngô Thị Phương",
-                "email": "ngothiphuong@gmail.com",
-                "phone": "0967890123",
-                "avatar": "https://example.com/avatars/phuong.jpg",
-                "dateOfBirth": "1998-04-17T00:00:00.000Z"
-              },
-              {
-                "id": 7,
-                "name": "Đặng Văn Giang",
-                "email": "dangvangiang@gmail.com",
-                "phone": "0978901234",
-                "avatar": "https://example.com/avatars/giang.jpg",
-                "dateOfBirth": "1993-09-23T00:00:00.000Z"
-              },
-              {
-                "id": 8,
-                "name": "Vũ Thị Hương",
-                "email": "vuthihuong@gmail.com",
-                "phone": "0989012345",
-                "avatar": null,
-                "dateOfBirth": "1996-06-12T00:00:00.000Z"
-              },
-              {
-                "id": 9,
-                "name": "Bùi Văn Ích",
-                "email": "buivanich@gmail.com",
-                "phone": "0990123456",
-                "avatar": "https://example.com/avatars/ich.jpg",
-                "dateOfBirth": "1991-01-30T00:00:00.000Z"
-              },
-              {
-                "id": 10,
-                "name": "Lý Thị Kim",
-                "email": "lythikim@gmail.com",
-                "phone": "0901234567",
-                "avatar": "https://example.com/avatars/kim.jpg",
-                "dateOfBirth": "1987-07-25T00:00:00.000Z"
-              }
-            ]
+  "notes":   [
+                {
+                  'title': 'Kế hoạch học tập',
+                  'content': 'Học Flutter mỗi ngày 2 tiếng, hoàn thành dự án Note App.',
+                  'priority': 3,
+                  'createdAt': DateTime(2023, 11, 5, 8, 30).toIso8601String(),
+                  'modifiedAt': DateTime(2023, 11, 5, 9, 0).toIso8601String(),
+                  'tags': ["học tập", "flutter", "dự án"].join(','),
+                  'color': '#FF00FF00', // Màu xanh lá
+                },
+                {
+                  'title': 'Việc nhà cuối tuần',
+                  'content': 'Dọn phòng, giặt đồ, nấu ăn, đi chợ.',
+                  'priority': 2,
+                  'createdAt': DateTime(2023, 11, 11, 10, 0).toIso8601String(),
+                  'modifiedAt': DateTime(2023, 11, 11, 10, 30).toIso8601String(),
+                  'tags': ["việc nhà", "cuối tuần"].join(','),
+                  'color': '#FFFFA500', // Màu cam
+                },
+                {
+                  'title': 'Ý tưởng dự án mới',
+                  'content': 'Xây dựng ứng dụng theo dõi thói quen hàng ngày.',
+                  'priority': 1,
+                  'createdAt': DateTime(2023, 12, 1, 15, 0).toIso8601String(),
+                  'modifiedAt': DateTime(2023, 12, 1, 15, 30).toIso8601String(),
+                  'tags': ["ý tưởng", "dự án", "thói quen"].join(','),
+                  'color': '#FFFF69B4', // Màu hồng
+                }
+              ]
 }
