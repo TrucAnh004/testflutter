@@ -26,6 +26,6 @@
                   'modifiedAt': DateTime(2023, 12, 1, 15, 30).toIso8601String(),
                   'tags': ["ý tưởng", "dự án", "thói quen"].join(','),
                   'color': '#FFFF69B4', // Màu hồng
-                },
+                }
               ]
 }
